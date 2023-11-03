@@ -1,0 +1,46 @@
+header {
+    background-color: #4dd6ff;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(227, 93, 93);
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    float: right;
+}
+
+.sections {
+    display: flex;
+}
+
+section {
+    flex: 1;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    color: black;
+}
+
+.grey-section {
+    background-color: #ccc;
+}
+
+.green-section {
+    background-color: #4CAF50;
+}
+
+footer {
+    background-color: rgb(218, 93, 218);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+}
