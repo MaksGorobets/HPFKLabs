@@ -1,0 +1,25 @@
+/* style.css */
+body {
+    background-color: #90EE90;
+  }
+  
+  button {
+    width: 42px;
+  }
+  
+  h1 {
+    color: #708090;
+  }
+  
+  p {
+    font-size: 18pt;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid red;
+  }
+  
