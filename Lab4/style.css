@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cont {
+  height: 100vh;
+}
+
+.container1 {
+  background-color: blue;
+}
+
+header {
+  height: 20vh;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+}
+
+nav {
+  display: flex;
+  align-items: end;
+}
+
+ul {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: end;
+}
+
+li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+main {
+  height: 80vh;
+  background-color: rgb(30, 97, 253);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.container2, .container3, .container4 {
+  background-color: black; /* Change the background color as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container2 p, .container3 p, .container4 p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+.container3 {
+  background-color: rgb(30, 97, 253);
+}
+
+.container4 {
+  background-color: black;
+}
+
+section {
+  height: 80vh;
+  background-color:  rgb(30, 97, 253);
+}
+
+footer {
+  height: 20vh;
+  background-color: black;
+}
