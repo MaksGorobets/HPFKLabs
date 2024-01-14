@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 70%;
+    background-color: #a8cae0;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.task {
+   
+    height: 150px;
+    width: 80%;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+
+#tsk2 {
+    display: flex;
+
+}
+
+input {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+}
+p {
+    margin: 10px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.triangle {
+    width: 0;  
+    height: 0;  
+    border-left: 50px solid transparent; 
+    border-right: 50px solid transparent; 
+      
+    border-bottom: 50px solid lightcoral; 
+
+    margin: 2rem; 
+}
+
+.box {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    
+}
+
+#tsk4 {
+    display: flex;
+}
